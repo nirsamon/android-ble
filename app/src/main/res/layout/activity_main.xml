@@ -13,10 +13,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start BLE Scan"/>
-
-    <Button
-        android:id="@+id/btn_stop_ble_scan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Stop BLE Scan"/>
 </LinearLayout>

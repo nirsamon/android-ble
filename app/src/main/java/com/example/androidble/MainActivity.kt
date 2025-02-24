@@ -18,6 +18,7 @@ import com.example.common.event.EventManager
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+    private val TAG = this::class.java.simpleName
 
     private var requestBluetooth =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()){}
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private val eventListener: EventListener<Event> = object : EventListener<Event> {
         override fun handle(event: Event) {
-            Log.d(javaClass.simpleName, "${event.name}: ${event.data}")
+            Log.d(TAG, "${event.name}: ${event.data}")
         }
     }
 

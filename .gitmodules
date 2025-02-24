@@ -1,0 +1,12 @@
+[submodule "android-ble"]
+    path = android-ble
+    url = https://github.com/nirsamon/android-ble.git
+[submodule "ble-scanner-app"]
+    path = ble-scanner-app
+    url = https://github.com/nirsamon/ble-scanner-app.git
+[submodule "ios-ble"]
+    path = ios-ble
+    url = https://github.com/nirsamon/ios-ble.git
+[submodule "kotlin-swift-bridge"]
+    path = kotlin-swift-bridge
+    url = https://github.com/nirsamon/kotlin-swift-bridge.git

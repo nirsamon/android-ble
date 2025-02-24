@@ -1,0 +1,127 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Gradle
+.gradle/
+gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+gradle.properties
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+*.key
+*.pem
+*.p12
+*.orig
+*.bak
+
+# Android Studio specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Log files
+*.log
+logs/
+crashlytics-build.properties
+
+# Generated files
+captures/
+output.json
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Cache and misc
+/.cxx/
+/.externalNativeBuild/
+.cxx/
+*.so
+*.o
+*.obj
+*.a
+*.lib
+
+# Debugging
+*.hprof
+
+# Google Services
+google-services.json
+app/google-services.json
+app/src/debug/google-services.json
+app/src/release/google-services.json
+
+# Firebase
+firebase.json
+
+# Test reports
+/test-output/
+/androidTest-results/
+/outputs/
+/jacoco/
+
+# React Native specific (if applicable)
+node_modules/
+android/app/build/
+android/.gradle/
+android/.idea/
+android/app/debug.keystore
+android/.cxx/
+android/.externalNativeBuild/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/metadata
+fastlane/report.xml
+fastlane/*.lock
+
+# Misc
+*.tmp
+*.swp
+*.swo
+*.swn
+
+
+# OS X
+.DS_Store
